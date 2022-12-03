@@ -1,4 +1,89 @@
+<style>
+  * {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* Desktop */
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 30%;
+    position: relative;
+    float: left;
+    border: 2px solid black;
+    background-color: #bccce1;
+    margin: 1%;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,
+  .col-md-12 {
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    background-color: #8c9cb8;
+    margin: 1%;
+  }
+
+  .col-md-6 {
+    width: 45%;
+  }
+
+  .col-md-12 {
+    width: 92%;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    position: relative;
+    float: left;
+    border: 1px solid black;
+    background-color: #8c9cb8;
+    margin: 1%;
+  }
+  .col-sm-12 {
+    width: 90%;
+  }
+}
+
+.row {
+  width: 100%;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#p1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  width: 40%;
+  margin: 0;
+}
+
+#p2 {
+  font-size: 1em;
+  padding: 20px;
+  text-align: justify
+}
+  </style>
   <body>
     <h1>Our Menu</h1>
 
